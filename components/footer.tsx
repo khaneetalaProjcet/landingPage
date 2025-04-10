@@ -6,7 +6,7 @@ import { Divider } from "@heroui/divider";
 
 function Footer() {
   const enamadCode =
-    "  <a referrerpolicy='origin' target='_blank' href='https://trustseal.enamad.ir/?id=573014&Code=DyaoyPn05OUCUbs4nNzeChfxBr5GE4q6'><img referrerpolicy='origin' src='https://trustseal.enamad.ir/logo.aspx?id=573014&Code=DyaoyPn05OUCUbs4nNzeChfxBr5GE4q6' alt='' style='cursor:pointer' code='DyaoyPn05OUCUbs4nNzeChfxBr5GE4q6'></a>";
+    `<a referrerpolicy='origin' target='_blank' href='https://trustseal.enamad.ir/?id=573014&Code=DyaoyPn05OUCUbs4nNzeChfxBr5GE4q6'><img referrerpolicy='origin' src='https://trustseal.enamad.ir/logo.aspx?id=573014&Code=DyaoyPn05OUCUbs4nNzeChfxBr5GE4q6' alt='' style='cursor:pointer' code='DyaoyPn05OUCUbs4nNzeChfxBr5GE4q6'></a>`;
 
   return (
     <footer className="bg-primary text-white p-10 mt-32">
