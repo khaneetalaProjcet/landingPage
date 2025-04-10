@@ -15,7 +15,7 @@ export default function Home() {
           background:
             "linear-gradient(52deg, rgba(238,197,106,1) 9%, rgba(174,145,80,1) 50%)",
         }}
-        className="flex flex-col lg:flex-row items-center justify-center gap-4 py-8 md:py-10 rounded-md h-2/5 lg:h-auto"
+        className="flex flex-col lg:flex-row items-center justify-center gap-4 py-8 md:py-10 rounded-md h-max lg:h-auto"
       >
         <div className="flex flex-col px-5 gap-4 flex-1 order-2 lg:order-1">
           <h1 className="text-2xl font-bold text-white text-center lg:text-start">
@@ -26,10 +26,7 @@ export default function Home() {
           </h2>
           <h4 className="text-lg text-white font-thin text-center lg:text-start">
             خرید، فروش و پس انداز آنلاین و 24 ساعته طلای آبشده، صندوق طلای
-            اختصاصی، تحویل فیزیکی بدون شرط از 30 سوت ، فاکتور رسمی معتبر (با
-            QRکد)، کد عیار سنجی قابل استعلام و تضمین اصالت نگهداری طلا در بانک
-            های معتبر (بر اساس ضوابط قانونی بانک مرکزی در راستای امنیت دارایی
-            مشتری)
+            اختصاصی
           </h4>
         </div>
         <div className="flex-1 order-1 lg:order-2">

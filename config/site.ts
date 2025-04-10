@@ -8,6 +8,36 @@ export const siteConfig = {
       label: "خانه",
       href: "/",
     },
+    {
+      label: "درباره ما",
+      href: "/#",
+    },
+    {
+      label: "ارتباط با ما",
+      href: "/#",
+    },
+    {
+      label: "قوانین و مقررات",
+      href: "/terms-and-conditions",
+    },
+  ],
+  navMenuItems: [
+    {
+      label: "خانه",
+      href: "/",
+    },
+    {
+      label: "درباره ما",
+      href: "/#",
+    },
+    {
+      label: "ارتباط با ما",
+      href: "/#",
+    },
+    {
+      label: "قوانین و مقررات",
+      href: "/terms-and-conditions",
+    },
   ],
   links: {
     github: "https://github.com/heroui-inc/heroui",
