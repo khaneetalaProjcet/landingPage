@@ -21,9 +21,7 @@ export default function Home() {
           <h1 className="text-2xl font-bold text-white text-center lg:text-start">
             خانه طلا
           </h1>
-          <h2 className="text-xl font-bold text-white text-center lg:text-start">
-            سامانه قانونی خرید و فروش طلای آب شده
-          </h2>
+
           <h4 className="text-lg text-white font-thin text-center lg:text-start">
             خرید، فروش و پس انداز آنلاین و 24 ساعته طلای آبشده، صندوق طلای
             اختصاصی

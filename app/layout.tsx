@@ -9,7 +9,6 @@ import { siteConfig } from "@/config/site";
 import { vazir } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
 import Footer from "@/components/footer";
-import Head from "next/head";
 
 export const metadata: Metadata = {
   title: {
