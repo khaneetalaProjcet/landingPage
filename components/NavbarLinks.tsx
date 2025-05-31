@@ -19,7 +19,7 @@ function NavbarLinks() {
           <NextLink
             className={clsx(
               linkStyles({ color: "foreground" }),
-              `data-[active=true]:text-primary data-[active=true]:font-medium hover:text-primary easein duration-100 p-2 ${pathname === item.href && "bg-primary text-white hover:text-white rounded-md"}`
+              `data-[active=true]:text-primary data-[active=true]:font-medium hover:text-primary easein duration-100 p-2 ${pathname === item.href && "text-primary hover:text-primary rounded-md"}`
             )}
             color="foreground"
             href={item.href}

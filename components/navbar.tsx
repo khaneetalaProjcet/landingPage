@@ -1,4 +1,5 @@
 "use client";
+import { Icon } from "@iconify/react";
 
 import {
   Navbar as HeroUINavbar,
@@ -24,7 +25,7 @@ export const Navbar = () => {
 
   return (
     <HeroUINavbar
-      maxWidth="xl"
+      maxWidth="lg"
       position="sticky"
       isMenuOpen={isOpenMenu}
       onMenuOpenChange={setIsOpenMenu}
@@ -35,19 +36,37 @@ export const Navbar = () => {
             <Logo />
           </NextLink>
         </NavbarBrand>
-      </NavbarContent>
-
-      <NavbarContent className=" basis-1 pl-4" justify="center">
-        <NavbarLinks />
+        <NavbarContent className=" basis-1 pl-4" justify="center">
+          <NavbarLinks />
+        </NavbarContent>
       </NavbarContent>
 
       <NavbarContent className="basis-1" justify="end">
         <NavbarItem>
           <LoginButton />
         </NavbarItem>
-        <NavbarItem className="md:hidden">
-          <NavbarMenuToggle />
-        </NavbarItem>
+        <NavbarMenuToggle
+          className="p-4 md:hidden"
+          // icon={(isOpen: boolean) => {
+          //   return (
+          //     <svg
+          //       xmlns="http://www.w3.org/2000/svg"
+          //       width="28"
+          //       height="20"
+          //       fill="none"
+          //       viewBox="0 0 28 20"
+          //     >
+          //       <path
+          //         stroke="#1F1B15"
+          //         strokeLinecap="round"
+          //         strokeLinejoin="round"
+          //         strokeWidth="3"
+          //         d="M26 2H2m24 8H2m24 8H2"
+          //       />
+          //     </svg>
+          //   );
+          // }}
+        />
       </NavbarContent>
 
       <NavbarMenu>

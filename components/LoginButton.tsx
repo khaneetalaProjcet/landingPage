@@ -3,8 +3,8 @@ import Link from "next/link";
 
 function LoginButton() {
   return (
-    <Link href="https://app.khanetala.ir/Login">
-      <Button className="bg-primary text-white">ورود</Button>
+    <Link href="https://app.khanetala.ir/Login" className="hidden lg:flex">
+      <Button className="bg-primary text-white">ورود به اپلیکیشن</Button>
     </Link>
   );
 }

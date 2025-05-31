@@ -10,7 +10,12 @@ const config = {
   theme: {
     extend: {
       colors: {
-        primary: "#AE9150",
+        primary: "#96773E",
+        background: "#FDFDF1",
+        secondary: "#CCA868",
+        secondary2: "#F5E5C4",
+        black: "#1F1B15",
+        white: "#FFFFFF",
       },
       fontFamily: {
         sans: ["vazir", "var(--font-sans)"],
