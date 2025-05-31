@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-import FAQ from "@/assets/images/FAQ.png";
 import FAQComponent from "@/components/faq";
 import MockPhone from "@/components/mock-phone";
 import { Button } from "@heroui/button";
@@ -289,9 +288,6 @@ export default function Home() {
 
       <section className="my-20 flex justify-center flex-col items-center w-screen-lg h-auto px-2">
         <div className="text-center flex flex-col lg:flex-row justify-center items-center lg:items-start lg:mt-20 lg:gap-10 max-w-screen-xl w-full h-max">
-          {/* <div>
-            <Image alt="FAQ" height={350} quality={100} src={FAQ} width={350} />
-            </div> */}
           <div className="flex-1 w-full my-14">
             <h2 className="text-2xl font-bold text-start mb-8">
               سوالات متداول
