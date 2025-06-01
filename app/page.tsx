@@ -26,7 +26,7 @@ export default function Home() {
             ورود به اپلیکیشن
           </Button>
         </div>
-        <div className="relative lg:order-2 order-1 flex flex-1 justify-center items-center ">
+        <div className="relative lg:order-2 order-1 flex flex-1 lg:justify-end lg:items-end justify-center items-center">
           <Image
             alt="gold"
             height={900}
@@ -96,7 +96,7 @@ export default function Home() {
         </h2>
         <div className="p-4">
           <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-5 lg:gap-10">
-            <div className="flex flex-col justify-center items-center gap-2">
+            <div className="flex flex-col justify-start items-center gap-2 lg:h-[30vh]">
               <div className="lg:w-28 w-20 lg:h-28 h-20 rounded-full bg-secondary flex justify-center items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -192,7 +192,7 @@ export default function Home() {
                 تراکنش در محیطی کاملا امن.
               </span>
             </div>
-            <div className="flex flex-col justify-center items-center gap-2">
+            <div className="flex flex-col justify-start items-center gap-2 lg:h-[30vh]">
               <div className="lg:w-28 w-20 lg:h-28 h-20 rounded-full bg-secondary flex justify-center items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -222,7 +222,7 @@ export default function Home() {
                 امکان استفاده در هر ساعت از شبانه روز.
               </span>
             </div>
-            <div className="flex flex-col justify-center items-center gap-2">
+            <div className="flex flex-col justify-start items-center gap-2 lg:h-[30vh]">
               <div className="lg:w-28 w-20 lg:h-28 h-20 rounded-full bg-secondary flex justify-center items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -252,7 +252,7 @@ export default function Home() {
                 دریافت قیمت های به روز بازار.
               </span>
             </div>
-            <div className="flex flex-col justify-center items-center gap-2">
+            <div className="flex flex-col justify-start items-center gap-2 lg:h-[30vh]">
               <div className="lg:w-28 w-20 lg:h-28 h-20 rounded-full bg-secondary flex justify-center items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
