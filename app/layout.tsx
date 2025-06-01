@@ -42,14 +42,14 @@ export default function RootLayout({
       </head>
       <body
         className={clsx(
-          "min-h-screen bg-background font-vazir antialiased",
+          "min-h-screen font-vazir antialiased",
           vazir.variable
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
-          <div className="relative flex flex-col h-screen">
+          <div className="relative flex flex-col bg-background">
             <Navbar />
-            <main className="container mx-auto max-w-screen-lg pt-16 lg:px-6 flex-grow bg-background">
+            <main className="container mx-auto max-w-screen-lg pt-16 lg:px-6 flex-grow ">
               {children}
             </main>
             <Footer />
