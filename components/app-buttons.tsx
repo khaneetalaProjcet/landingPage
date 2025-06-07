@@ -10,6 +10,8 @@ function AppButtons() {
       <Link href="https://app.khanetala.ir/Login">
         <Button
           color="primary"
+          size="lg"
+          className="font-bold"
           // startContent={
           //   <Icon icon="logos:android-icon" width="256" height="150" />
           // }

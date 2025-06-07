@@ -6,7 +6,7 @@ import clsx from "clsx";
 import { Providers } from "./providers";
 
 import { siteConfig } from "@/config/site";
-import { vazir } from "@/config/fonts";
+import { modam } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
 import Footer from "@/components/footer";
 
@@ -41,15 +41,12 @@ export default function RootLayout({
 </script> */}
       </head>
       <body
-        className={clsx(
-          "min-h-screen font-vazir antialiased",
-          vazir.variable
-        )}
+        className={clsx("min-h-screen font-modam antialiased", modam.variable)}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
           <div className="relative flex flex-col bg-background">
             <Navbar />
-            <main className="container mx-auto max-w-screen-lg pt-16 lg:px-6 flex-grow ">
+            <main className="container mx-auto max-w-screen-lg lg:pt-16 lg:px-6 flex-grow ">
               {children}
             </main>
             <Footer />

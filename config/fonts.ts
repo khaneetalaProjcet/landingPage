@@ -11,38 +11,78 @@ export const fontMono = FontMono({
   variable: "--font-mono",
 });
 
-export const vazir = localFont({
+export const modam = localFont({
   src: [
     {
-      path: "../assets/fonts/Vazirmatn-ExtraLight.woff2",
+      path: "../assets/fonts/ModamFaNumWeb-ExtraLight.woff2",
       weight: "100",
       style: "normal",
     },
     {
-      path: "../assets/fonts/Vazirmatn-Light.woff2",
+      path: "../assets/fonts/ModamWeb-ExtraLight.woff2",
+      weight: "100",
+      style: "normal",
+    },
+    {
+      path: "../assets/fonts/ModamFaNumWeb-Light.woff2",
       weight: "200",
       style: "normal",
     },
     {
-      path: "../assets/fonts/Vazirmatn-Regular.woff2",
+      path: "../assets/fonts/ModamWeb-Light.woff2",
+      weight: "200",
+      style: "normal",
+    },
+    {
+      path: "../assets/fonts/ModamFaNumWeb-Regular.woff2",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../assets/fonts/ModamWeb-Regular.woff2",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../assets/fonts/ModamFaNumWeb-Medium.woff2",
       weight: "400",
       style: "normal",
     },
     {
-      path: "../assets/fonts/Vazirmatn-Medium.woff2",
+      path: "../assets/fonts/ModamWeb-Medium.woff2",
       weight: "400",
       style: "normal",
     },
     {
-      path: "../assets/fonts/Vazirmatn-Bold.woff2",
+      path: "../assets/fonts/ModamFaNumWeb-Black.woff2",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../assets/fonts/ModamWeb-Black.woff2",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../assets/fonts/ModamFaNumWeb-Bold.woff2",
       weight: "700",
       style: "normal",
     },
     {
-      path: "../assets/fonts/Vazirmatn-ExtraBold.woff2",
-      weight: "900",
+      path: "../assets/fonts/ModamWeb-Bold.woff2",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "../assets/fonts/ModamFaNumWeb-SemiBold.woff2",
+      weight: "800",
+      style: "normal",
+    },
+    {
+      path: "../assets/fonts/ModamWeb-SemiBold.woff2",
+      weight: "800",
       style: "normal",
     },
   ],
-  variable: "--font-vazir",
+  variable: "--font-modam",
 });

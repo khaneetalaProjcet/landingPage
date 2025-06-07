@@ -10,16 +10,16 @@ const config = {
   theme: {
     extend: {
       colors: {
-        primary: "#96773E",
+        primary: "#7C5E26",
         background: "#FDFDF1",
         secondary: "#CCA868",
-        secondary2: "#F5E5C4",
+        secondary2: "#E2D097",
         black: "#1F1B15",
         white: "#FFFFFF",
       },
       fontFamily: {
-        sans: ["vazir", "var(--font-sans)"],
-        mono: ["vazir", "var(--font-mono)"],
+        sans: ["modam", "var(--font-sans)"],
+        mono: ["modam", "var(--font-mono)"],
       },
     },
   },
