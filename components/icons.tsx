@@ -182,9 +182,9 @@ export const ArrowLeftIcon = (props: IconSvgProps) => (
     <path
       fill="none"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-width="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
       d="m14 7l-5 5l5 5"
     />
   </svg>

@@ -7,6 +7,7 @@ import AppButtons from "@/components/app-buttons";
 
 import LandingImg from "@/assets/images/landing-img.png";
 import AboutUsImg from "@/assets/images/about-us.png";
+import Link from "next/link";
 export default function Home() {
   return (
     <>
@@ -22,9 +23,11 @@ export default function Home() {
           <h6 className="lg:text-xl text-[17px] font-light lg:mt-10 text-justify w-full">
             خرید و فروش و پس انداز طلا؛ ساده، امن و 24 ساعته .
           </h6>
-          <Button color="primary" className="lg:px-10 font-bold" size="lg">
-            ورود | عضویت
-          </Button>
+          <Link href="https://app.khanetala.ir/Login">
+            <Button color="primary" className="lg:px-10 font-bold" size="lg">
+              ورود | عضویت
+            </Button>
+          </Link>
         </div>
         <div className="relative lg:order-2 order-1 flex flex-1 lg:justify-end lg:items-end justify-center items-center ">
           <Image
@@ -111,24 +114,24 @@ export default function Home() {
                     <path
                       fill="url(#b)"
                       stroke="#1F1B15"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="4"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="4"
                       d="M34.4 62.114a4.286 4.286 0 0 1-3.086 0A41.1 41.1 0 0 1 5 23.8V11.286A4.286 4.286 0 0 1 9.286 7h47.143a4.286 4.286 0 0 1 4.285 4.286V23.8A41.1 41.1 0 0 1 34.4 62.114Z"
                     />
                     <path
                       fill="url(#c)"
                       stroke="#1F1B15"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="4"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="4"
                       d="M32.857 32.714a6.428 6.428 0 1 0 0-12.857 6.428 6.428 0 0 0 0 12.857Z"
                     />
                     <path
                       stroke="#1F1B15"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="4"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="4"
                       d="M32.857 43.429V32.714"
                     />
                   </g>
@@ -141,9 +144,9 @@ export default function Home() {
                       y2="55.16"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#F3C884" />
-                      <stop offset=".514" stop-color="#B18E4E" />
-                      <stop offset="1" stop-color="#89633E" />
+                      <stop stopColor="#F3C884" />
+                      <stop offset=".514" stopColor="#B18E4E" />
+                      <stop offset="1" stopColor="#89633E" />
                     </linearGradient>
                     <linearGradient
                       id="c"
@@ -153,9 +156,9 @@ export default function Home() {
                       y2="30.99"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#F3C884" />
-                      <stop offset=".514" stop-color="#B18E4E" />
-                      <stop offset="1" stop-color="#89633E" />
+                      <stop stopColor="#F3C884" />
+                      <stop offset=".514" stopColor="#B18E4E" />
+                      <stop offset="1" stopColor="#89633E" />
                     </linearGradient>
                     <filter
                       id="a"
@@ -163,7 +166,7 @@ export default function Home() {
                       height="69.402"
                       x="0"
                       y="0"
-                      color-interpolation-filters="sRGB"
+                      colorInterpolationFilters="sRGB"
                       filterUnits="userSpaceOnUse"
                     >
                       <feFlood flood-opacity="0" result="BackgroundImageFix" />
@@ -208,16 +211,16 @@ export default function Home() {
                   </g>
                   <path
                     stroke="#1F1B15"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="4"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="4"
                     d="M32.5 5A29.5 29.5 0 1 1 3 34.5a32.813 32.813 0 0 1 9.077-22.692"
                   />
                   <path
                     stroke="#1F1B15"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="4"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="4"
                     d="m3 14.076 9.077-2.27 2.27 9.078M32.5 18.615v18.154l11.8 5.9"
                   />
                   <defs>
@@ -229,9 +232,9 @@ export default function Home() {
                       y2="56.085"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#F3C884" />
-                      <stop offset=".514" stop-color="#B18E4E" />
-                      <stop offset="1" stop-color="#89633E" />
+                      <stop stopColor="#F3C884" />
+                      <stop offset=".514" stopColor="#B18E4E" />
+                      <stop offset="1" stopColor="#89633E" />
                     </linearGradient>
                     <filter
                       id="a"
@@ -239,7 +242,7 @@ export default function Home() {
                       height="69"
                       x="0"
                       y="0"
-                      color-interpolation-filters="sRGB"
+                      colorInterpolationFilters="sRGB"
                       filterUnits="userSpaceOnUse"
                     >
                       <feFlood flood-opacity="0" result="BackgroundImageFix" />
@@ -301,16 +304,16 @@ export default function Home() {
                   </g>
                   <path
                     stroke="#1F1B15"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="4"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="4"
                     d="M21 21v31h31"
                   />
                   <path
                     stroke="#1F1B15"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="4"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="4"
                     d="m28.154 35.308 5.961 5.961 9.539-14.307L52 32.923"
                   />
                   <defs>
@@ -322,9 +325,9 @@ export default function Home() {
                       y2="60.724"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#F3C884" />
-                      <stop offset=".514" stop-color="#B18E4E" />
-                      <stop offset="1" stop-color="#89633E" />
+                      <stop stopColor="#F3C884" />
+                      <stop offset=".514" stopColor="#B18E4E" />
+                      <stop offset="1" stopColor="#89633E" />
                     </linearGradient>
                     <filter
                       id="a"
@@ -332,10 +335,10 @@ export default function Home() {
                       height="74"
                       x="0"
                       y="0"
-                      color-interpolation-filters="sRGB"
+                      colorInterpolationFilters="sRGB"
                       filterUnits="userSpaceOnUse"
                     >
-                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feFlood floodOpacity="0" result="BackgroundImageFix" />
                       <feColorMatrix
                         in="SourceAlpha"
                         result="hardAlpha"
@@ -378,16 +381,16 @@ export default function Home() {
                   </g>
                   <path
                     stroke="#1F1B15"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="4"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="4"
                     d="M32.5 64C48.792 64 62 50.792 62 34.5S48.792 5 32.5 5 3 18.208 3 34.5 16.208 64 32.5 64Z"
                   />
                   <path
                     stroke="#1F1B15"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="4"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="4"
                     d="M17.523 39.038c2.27 8.17 11.346 13.162 19.515 10.893 4.993-1.816 9.078-5.9 10.439-10.892M22.515 27.238a.908.908 0 0 1 0-1.815m0 1.815a.908.908 0 0 0 0-1.815m19.969 1.815a.908.908 0 0 1 0-1.815m0 1.815a.908.908 0 0 0 0-1.815"
                   />
                   <defs>
@@ -399,9 +402,9 @@ export default function Home() {
                       y2="56.085"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#F3C884" />
-                      <stop offset=".514" stop-color="#B18E4E" />
-                      <stop offset="1" stop-color="#89633E" />
+                      <stop stopColor="#F3C884" />
+                      <stop offset=".514" stopColor="#B18E4E" />
+                      <stop offset="1" stopColor="#89633E" />
                     </linearGradient>
                     <filter
                       id="a"
@@ -409,7 +412,7 @@ export default function Home() {
                       height="69"
                       x="0"
                       y="0"
-                      color-interpolation-filters="sRGB"
+                      colorInterpolationFilters="sRGB"
                       filterUnits="userSpaceOnUse"
                     >
                       <feFlood flood-opacity="0" result="BackgroundImageFix" />
