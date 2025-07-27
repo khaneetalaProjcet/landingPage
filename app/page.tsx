@@ -23,7 +23,7 @@ export default function Home() {
           <h6 className="lg:text-xl text-[17px] font-light lg:mt-10 text-justify w-full">
             خرید و فروش و پس انداز طلا؛ ساده، امن و 24 ساعته .
           </h6>
-          <Link href="https://app.khanetala.ir/Login">
+          <Link href="https://app.khanetalaa.ir/Login">
             <Button color="primary" className="lg:px-10 font-bold" size="lg">
               ورود | عضویت
             </Button>

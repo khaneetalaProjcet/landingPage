@@ -14,7 +14,7 @@ function Footer() {
                 <Icon icon="mingcute:location-fill" width="24" height="24" />
               </div>
               <span className="text-[14px] lg:md">
-                گیلان، کوچصفهان، خیابان شهید عسکری، مجموعه خانه طلا 
+                گیلان، کوچصفهان، خیابان شهید عسکری، مجموعه خانه طلا
               </span>
             </li>
             <li className="flex items-center gap-2">
