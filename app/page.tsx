@@ -16,8 +16,9 @@ export default function Home() {
           <h4 className="text-lg lg:text-xl font-bold lg:text-centertext-start inline">
             با
             <span className="text-3xl lg:text-4xl font-extrabold text-center lg:text-start text-secondary inline mx-2">
-              اپلیکیشن خانه طلا
+              اپلیکیشن خانه طلا ؛
             </span>
+            <br />
             همون فروشگاه ، همون طلا ، این بار از خونه !
           </h4>
           <h6 className="lg:text-xl text-[17px] font-light lg:mt-10 text-justify w-full">
@@ -51,12 +52,13 @@ export default function Home() {
             <span className="font-bold">کیفیت</span>، و{" "}
             <span className="font-bold">اصالت</span> فعالیت کرده است.
             <p>
-              اکنون با توسعه <span className="font-bold">اپلیکیشن اختصاصی</span>
-              ، گامی نو در مسیر خدمت‌رسانی برداشته‌ایم تا تجربه‌ای{" "}
+              اکنون با ورود به{" "}
+              <span className="font-bold">عرصه فروش آنللاین طلا</span>، گامی نو
+              در مسیر خدمت‌رسانی برداشته‌ایم تا تجربه‌ای{" "}
               <span className="font-bold">امن</span> ،{" "}
               <span className="font-bold">سریع</span> و{" "}
               <span className="font-bold">حرفه‌ای</span> از خرید آنلاین طلا را
-              برای مشتریان فراهم کنیم.
+              برای مشتریان عزیزمان فراهم کنیم.
             </p>
           </p>
         </div>
@@ -83,13 +85,11 @@ export default function Home() {
             خرید طلا ، ساده تر از همیشه با{" "}
             <p className="text-primary">اپلیکیشن خانه طلا</p>
           </h2>
-          <h4 className="font-light text-justify text-[18px]">
-            با پشتیبانی ۲۴ ساعته، امکان خرید و فروش بی‌واسطه و پس‌انداز طلا را
-            در محیطی امن، بدون کارمزد و به‌سادگی تجربه کنید.
+          <h4 className="font-light text-justify text-[18px] my-1">
+            در راستای راحتی و آسایش شما عزیزان تمامی خدمات مربوط به طرح صندوق
+            طلا را این بار در بستر آنلاین و محیطی امن برای شما فراهم کرده ایم.
           </h4>
-          <h6 className="mt-8 text-justify text-[18px]">
-            همه‌چیز درباره نحوه استفاده از اپلیکیشن خانه طلا را اینجا ببینید:
-          </h6>
+
           <AppButtons />
         </div>
         <MockPhone />

@@ -16,7 +16,7 @@ function AppButtons() {
           //   <Icon icon="logos:android-icon" width="256" height="150" />
           // }
         >
-          امکانات اپلیکیشن
+          ورود
         </Button>
       </Link>
       {/* <Button
