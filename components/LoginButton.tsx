@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function LoginButton() {
   return (
-    <Link href="https://app.khanetalaa.ir/Login" className="hidden lg:flex">
+    <Link href="https://app.khanetala.ir/Login" className="hidden lg:flex">
       <Button className="bg-primary text-white">ورود | عضویت</Button>
     </Link>
   );
